@@ -3,7 +3,8 @@
     "command": "g++",
     "args": [
         "-g",
-        "-fexec-charset=GBK -finput-charset=UTF-8",
+        "-fexec-charset=GBK",
+        "-finput-charset=UTF-8",
         "-std=c++11",
         "${file}",
         "-o",
